@@ -23,7 +23,7 @@ class SQLConnection {
 	String dbPassword;
 	String dbName;
 	
-	public SQLConnection(String dbUser, String dbPassword, String dbName) {
+	public SQLConnection(String dbUser, String dbPassword, String dbfullName) {
 		super();
 		this.dbUser = dbUser;
 		this.dbPassword = dbPassword;
